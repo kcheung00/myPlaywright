@@ -14,11 +14,15 @@
    ```
    git clone https://github.com/kcheung00/playwright.git
    ```
-2. Build
+2. Change Directoy
+   ```
+   cd playwright
+   ```
+3. Build
    ```
    mvn clean install
    ```
-3. Execution (_Ensure desktop outlook is running._)
+4. Execution (_Ensure desktop outlook is running._)
    ```
    java -jar target/ui-test-1.0-SNAPSHOT-jar-with-dependencies.jar
    ```
